@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
 /**** Reset ****/
 
 *, ::before, ::after {
@@ -6,7 +8,7 @@
     box-sizing: border-box;
     border: none;
     outline: none;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 /**** Style général ****/
@@ -101,7 +103,7 @@ p {
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     transition: background-color 0.3s ease-in-out;
 }
 
