@@ -13,7 +13,7 @@ username.addEventListener("input", (e) => {
   const node = username.parentNode;
   node.classList.remove("error");
   node.classList.remove("valid");
-  if (usernameValue.length < 5) {
+  if (usernameValue.length < 6) {
     node.classList.add("error");
   } else {
     node.classList.add("valid");
