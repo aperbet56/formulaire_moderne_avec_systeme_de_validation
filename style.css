@@ -2,7 +2,9 @@
 
 /**** Reset ****/
 
-*, ::before, ::after {
+*,
+::before,
+::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,7 +33,8 @@ body {
     box-shadow: 0 8px 14px 2px rgba(0, 0, 0, 0.3);
 }
 
-h2, p {
+h2,
+p {
     text-align: center;
     padding: 10px;
 }
@@ -86,7 +89,6 @@ p {
 
 .form__input.error label::before {
     background-color: #ff0000;
-    ;
 }
 
 .form__input.error {
@@ -108,6 +110,8 @@ p {
     cursor: pointer;
     font-size: 16px;
     font-weight: 500;
-    transition: background-color 0.3s ease-in-out;
 }
 
+.submit__btn:disabled {
+    opacity: 0.7;
+}
