@@ -1,5 +1,7 @@
 ## FORMULAIRE MODERNE AVEC SYSTEME DE VALIDATION
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
 Mon objectif a été de créer une interface utilisateur (formulaire de connexion)moderne en utilisant le HTML5, CSS3 et le JavaScript. Ce formulaire est réactif et fournit des validations de base des champs du formulaire (au moins 6 caractères pour le champ de formulaire nom d'utilisateur et au moins 8 caractères pour le champ de formulaire mot de passe).
