@@ -7,6 +7,8 @@ const submitBtn = document.querySelector(".submit__btn");
 let usernameValue;
 let passwordValue;
 
+submitBtn.disabled = true;
+
 // Ecoute de l'événement input sur le champ de formulaire ayant l'Id username
 username.addEventListener("input", (e) => {
   usernameValue = e.target.value;
@@ -15,8 +17,10 @@ username.addEventListener("input", (e) => {
   node.classList.remove("valid");
   if (usernameValue.length < 6) {
     node.classList.add("error");
+    submitBtn.disabled = true;
   } else {
     node.classList.add("valid");
+    submitBtn.disabled = false;
   }
 });
 
@@ -28,7 +32,9 @@ password.addEventListener("input", (e) => {
   node.classList.remove("valid");
   if (passwordValue.length < 8) {
     node.classList.add("error");
+    submitBtn.disabled = true;
   } else {
     node.classList.add("valid");
+    submitBtn.disabled = false;
   }
 });
