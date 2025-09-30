@@ -7,6 +7,8 @@ const submitBtn = document.querySelector(".submit__btn");
 let usernameValue;
 let passwordValue;
 
+// RENDRE LE BOUTON NON CLIQUABLE
+// La propriété disabled est une valeur booléenne qui reflète l'attribut HTML disabled, lequel indique si le contrôle est désactivé. S'il est désactivé, il n'accepte pas les clics. Un élément désactivé est inutilisable et non cliquable.
 submitBtn.disabled = true;
 
 // Ecoute de l'événement input sur le champ de formulaire ayant l'Id username
