@@ -1,3 +1,5 @@
+/**** Importation de la police Roboto ****/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
 /**** Reset ****/
@@ -8,6 +10,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+button,
+input {
     border: none;
     outline: none;
     font-family: "Roboto", sans-serif;
@@ -18,6 +24,7 @@
 body {
     width: 100%;
     min-height: 100vh;
+    font-family: "Roboto", sans-serif;
 }
 
 .form__container {
